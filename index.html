@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Suggestion: adding meta data -- DONE  -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pixel Art Maker!</title>
     <link
       rel="stylesheet"
@@ -13,10 +17,25 @@
 
     <h2>Choose Grid Size</h2>
     <form id="sizePicker">
+      <!-- Suggestion: adding max attribute to prevent user from trying to create to large grid -- Done -->
       Grid Height:
-      <input type="number" id="inputHeight" name="height" min="1" value="1" />
+      <input
+        type="number"
+        id="inputHeight"
+        name="height"
+        min="1"
+        value="1"
+        max="100"
+      />
       Grid Width:
-      <input type="number" id="inputWidth" name="width" min="1" value="1" />
+      <input
+        type="number"
+        id="inputWidth"
+        name="width"
+        min="1"
+        value="1"
+        max="100"
+      />
       <input type="submit" />
     </form>
 

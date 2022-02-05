@@ -19,6 +19,11 @@ pixelCanvas.addEventListener('click', function (event) {
     }
 })
 
+/**
+  * @desc create a grid of squares 
+  * @param int $width - number of squares representing the width of the grid
+  * @param int $height - number of squares representing the height of the grid
+*/
 function makeGrid() {
 // Your code goes here!
     for (let r = 0; r < height.value; r++) {
